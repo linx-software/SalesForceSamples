@@ -65,7 +65,7 @@ This template upload account records that are stored in CSV format to Salesforce
  - In Browser - Navigate to base_uri/oauth/authorize
      - instance url saved in c:\temp\instance_url
      - access token saved in c:\temp\access_token
-- The above paths can be changed inside the function.
+- The above paths can be changed inside the function. 
 ### To Generate Access Token in Google: 
 - Click on RUN in GoogleSheetOAuthTemplate and start
  - In Browser - Navigate to base_uri/oauth/authorize
@@ -98,8 +98,6 @@ A sample to retrieve metadata for an object
 - [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
 - [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
 - [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
-
-
-
-
-     
+- [https://github.com/linx-software/salesforce#setting-up-the-sample](Setting up Salesforce for sample)
+- [https://github.com/linx-software/google-drive-file-management#setting-up-the-sample](Setting up GoogleDrive for sample) 
+   
