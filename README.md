@@ -68,13 +68,13 @@ This template upload account records that are stored in CSV format to Salesforce
  - In Browser - Navigate to base_uri/oauth/authorize
      - instance url saved in c:\temp\instance_url
      - access token saved in c:\temp\access_token
-- The above notepad paths can be changed if needed inside the function.
+- The above paths can be changed inside the function.
 ### To Generate Access Token in Google: 
 - Click on RUN in GoogleSheetOAuthTemplate and start
  - In Browser - Navigate to base_uri/oauth/authorize
      - instance url saved in c:\temp\google\instance_url
      - access token saved in c:\temp\google\access_token
-- The above notepad paths can be changed if needed inside the function.
+- The above paths can be changed inside the function.
 
 ## Other Information
 #### Bulk API
