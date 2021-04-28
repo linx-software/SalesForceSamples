@@ -58,10 +58,6 @@ This template upload account records that are stored in CSV format to Salesforce
      - GetToken - Reads token saved in file generated in Authenticating GoogleSheets using OAuth 2.0    
 7.   Salesforce
      - GetAccessTokenAndInstanceURL - Reads Access Token and Instance url from file generated in Authenticating Salesforce using OAuth 2.0
-### Additional resources to configure settings 
-- [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
-- [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
-- [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
      
 # How to use the helper functions to generate Access token
 ### To Generate Access Token and Exchange Code in Salesforce: 
@@ -97,6 +93,11 @@ To generate sample file and data, or simply download Lead.xlsx for use in Automa
 
 ### Get_MetaData_Object_Template
 A sample to retrieve metadata for an object
+
+### Additional resources to configure settings 
+- [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
+- [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
+- [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
 
 
 
