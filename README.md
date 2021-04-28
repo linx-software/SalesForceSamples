@@ -98,6 +98,6 @@ A sample to retrieve metadata for an object
 - [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
 - [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
 - [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
-- [https://github.com/linx-software/salesforce#setting-up-the-sample](Setting up Salesforce for sample)
-- [https://github.com/linx-software/google-drive-file-management#setting-up-the-sample](Setting up GoogleDrive for sample) 
+- https://github.com/linx-software/salesforce#setting-up-the-sample
+- https://github.com/linx-software/google-drive-file-management#setting-up-the-sample
    
