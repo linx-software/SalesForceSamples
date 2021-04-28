@@ -14,7 +14,7 @@ This template synchronizes products data between Salesforce and a database syste
 
 ## Automated account management with Bulk Data Process
 The movement of large quantities of data is necessary during daily data sync.
-This template upload account records that are stored in CSV format to Salesforce.  Download Bulk API Sample Contact Data.csv.  It uses the Bulk Api from salesForce.  It also verifies the job status and writes the result to a log file. 
+This template upload account records that are stored in CSV format to Salesforce.  Download Bulk API Sample Contact Data.csv.  It uses the Bulk Api from Salesforce.  It also verifies the job status and writes the result to a log file. 
  
 ### The template processes data in the following order;
 1.	Create a new job that specifies the object and action.
