@@ -61,6 +61,7 @@ This template upload account records that are stored in CSV format to Salesforce
 ### Additional resources to configure settings 
 - [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
 - [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
+- [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
      
 # How to use the helper functions to generate Access token
 ### To Generate Access Token and Exchange Code in Salesforce: 
