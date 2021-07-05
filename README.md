@@ -1,22 +1,6 @@
 # Linx connect to Salesforce
 ## Description
 The following samples will help you to get started with using Salesforce and Linx for data migration, integration and process automation.  Please note that the Linx samples are built using Linx version 5.20.2.0 and Salesforce version v50.0.  
-
-#### Automate lead management with Excel
-This template integrates Excel data with Salesforce to ensure that while users continue capturing leads using their preferred tool.  This template serves as a foundation for creating Leads in Salesforce as Leads are updated and created in Excel Sheet. 
-
-#### Automate lead management with GoogleSheets
-Business today demands up-to-the-minute data. Latency requirements are shrinking at the same time.  Sales use different tools to capture various information easily and quickly.
-This template integrates GoogleSheet data with Salesforce to ensure that users continue capturing leads using their preferred tool.  This template serves as a foundation for creating Leads in Salesforce as Leads are updated and created in GoogleSheet.  This integration saves time by copying and pasting data from Googlesheet into Salesforce.
-
-#### Salesforce and Database Synchronization
-Migrating data to and from Salesforce can be challenging due to data inconsistencies, invalid mapping, or improper formatting.
-This template synchronizes products data between Salesforce and a database system like SQL Server. Download CreateProductTable.sql and run the script. This template makes it fast to configure the fields to be synchronized, how they map, and criteria on when to trigger the synchronization.  This template imports products from the existing database into Salesforce and updates the product table in SQL Server with the salesforce ID.
-
-#### Automated account management with Bulk Data Process
-The movement of large quantities of data is necessary during daily data sync.
-This template upload account records that are stored in CSV format to Salesforce.  Download Bulk API Sample Contact Data.csv.  It uses the Bulk Api from Salesforce.  It also verifies the job status and writes the result to a log file. 
-
 ## Installation
 ### The template processes data in the following order;
 1.	Create a new job that specifies the object and action.
@@ -61,6 +45,22 @@ This template upload account records that are stored in CSV format to Salesforce
 7.   Salesforce
      - GetAccessTokenAndInstanceURL - Reads Access Token and Instance url from file generated in Authenticating Salesforce using OAuth 2.0
 ## Usage
+#### Automate lead management with Excel
+This template integrates Excel data with Salesforce to ensure that while users continue capturing leads using their preferred tool.  This template serves as a foundation for creating Leads in Salesforce as Leads are updated and created in Excel Sheet. 
+
+#### Automate lead management with GoogleSheets
+Business today demands up-to-the-minute data. Latency requirements are shrinking at the same time.  Sales use different tools to capture various information easily and quickly.
+This template integrates GoogleSheet data with Salesforce to ensure that users continue capturing leads using their preferred tool.  This template serves as a foundation for creating Leads in Salesforce as Leads are updated and created in GoogleSheet.  This integration saves time by copying and pasting data from Googlesheet into Salesforce.
+
+#### Salesforce and Database Synchronization
+Migrating data to and from Salesforce can be challenging due to data inconsistencies, invalid mapping, or improper formatting.
+This template synchronizes products data between Salesforce and a database system like SQL Server. Download CreateProductTable.sql and run the script. This template makes it fast to configure the fields to be synchronized, how they map, and criteria on when to trigger the synchronization.  This template imports products from the existing database into Salesforce and updates the product table in SQL Server with the salesforce ID.
+
+#### Automated account management with Bulk Data Process
+The movement of large quantities of data is necessary during daily data sync.
+This template upload account records that are stored in CSV format to Salesforce.  Download Bulk API Sample Contact Data.csv.  It uses the Bulk Api from Salesforce.  It also verifies the job status and writes the result to a log file. 
+
+--- 
 #### How to use the helper functions to generate Access token
 ### To Generate Access Token and Exchange Code in Salesforce: 
  - Click on RUN in AuthorizationOAuthTemplate and start
