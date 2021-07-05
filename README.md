@@ -8,7 +8,7 @@ The following samples will help you to get started with using Salesforce and Lin
 3.	Once all data has been submitted, close the job. Once closed, no more batches can be sent as part of the job.
 4.	Check status. 
 5.	Save the result sets with the original data set in a file, to determine which records failed and succeeded.
-# The following functions/processes are used as helpers.  
+ #### The following functions/processes are used as helpers.  
 1.	Authenticating Salesforce using OAuth 2.0
      - Parameters - Consumer Key, Consumer Secret, Base URI
      - Result - Access Token
