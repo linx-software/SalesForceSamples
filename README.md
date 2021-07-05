@@ -61,7 +61,7 @@ The movement of large quantities of data is necessary during daily data sync.
 This template upload account records that are stored in CSV format to Salesforce.  Download Bulk API Sample Contact Data.csv.  It uses the Bulk Api from Salesforce.  It also verifies the job status and writes the result to a log file. 
 
 --- 
-#### How to use the helper functions to generate Access token
+### How to use the helper functions to generate Access token
 ### To Generate Access Token and Exchange Code in Salesforce: 
  - Click on RUN in AuthorizationOAuthTemplate and start
  - In Browser - Navigate to base_uri/oauth/authorize
@@ -75,14 +75,14 @@ This template upload account records that are stored in CSV format to Salesforce
      - access token saved in c:\temp\google\access_token
 - The above paths can be changed inside the function.
 
-## Other Information
+### Other Information
 #### Bulk API
  - CreateBulkJobTemplate  - State : open
  - CloseJob - State : UploadComplete
  - VerifyJobStatus - Get the state of the job in batch at a particular time after UploadComplete
  - GetJobStatus - Once a job has been completed and is in the JobComplete state (or Failed state), you can get details of which job data records were successfully processed
 
-## Utilities samples
+### Utilities samples
 ### GetGoogleSheetByID
 - Parameter - Google SpreadSheet ID
 - Result - Google Spreadsheet
