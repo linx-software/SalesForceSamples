@@ -75,28 +75,28 @@ This template upload account records that are stored in CSV format to Salesforce
      - access token saved in c:\temp\google\access_token
 - The above paths can be changed inside the function.
 
-### Other Information
+#### Other Information
 #### Bulk API
  - CreateBulkJobTemplate  - State : open
  - CloseJob - State : UploadComplete
  - VerifyJobStatus - Get the state of the job in batch at a particular time after UploadComplete
  - GetJobStatus - Once a job has been completed and is in the JobComplete state (or Failed state), you can get details of which job data records were successfully processed
 
-### Utilities samples
-### GetGoogleSheetByID
+#### Utilities samples
+#### GetGoogleSheetByID
 - Parameter - Google SpreadSheet ID
 - Result - Google Spreadsheet
 
-### DeleteExistingLeadRecords_In_Salesforce
+#### DeleteExistingLeadRecords_In_Salesforce
 Serves to delete all Leads in Salesforce.  This is useful to avoid duplicating data when running sample tests. 
 
-### Get_All_Leads 
+#### Get_All_Leads 
 To generate sample file and data, or simply download Lead.xlsx for use in Automate lead management with Excel.
 
-### Get_MetaData_Object_Template
+#### Get_MetaData_Object_Template
 A sample to retrieve metadata for an object
 
-### Additional resources to configure settings 
+#### Additional resources to configure settings 
 - [Salesforce-Linx integration guide](https://community.linx.software/community/t/integrating-with-salesforce/494)
 - [Salesforce API authentication documentation](https://help.salesforce.com/articleView?id=sf.remoteaccess_oauth_web_server_flow.htm&type=5)
 - [GoogleSheet-Linx integration guide](https://linx.software/docs/guides/googleapis/)
