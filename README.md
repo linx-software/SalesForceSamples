@@ -62,13 +62,13 @@ This template upload account records that are stored in CSV format to Salesforce
 
 --- 
 ### How to use the helper functions to generate Access token
-### To Generate Access Token and Exchange Code in Salesforce: 
+#### To Generate Access Token and Exchange Code in Salesforce: 
  - Click on RUN in AuthorizationOAuthTemplate and start
  - In Browser - Navigate to base_uri/oauth/authorize
      - instance url saved in c:\temp\instance_url
      - access token saved in c:\temp\access_token
 - The above paths can be changed inside the function. 
-### To Generate Access Token in Google: 
+#### To Generate Access Token in Google: 
 - Click on RUN in GoogleSheetOAuthTemplate and start
  - In Browser - Navigate to base_uri/oauth/authorize
      - instance url saved in c:\temp\google\instance_url
